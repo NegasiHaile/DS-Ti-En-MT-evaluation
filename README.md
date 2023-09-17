@@ -1,6 +1,8 @@
-﻿About: This is the dataset for the project “Error Analysis of Tigrinya-English Machine Translation Systems.” In this project, we evaluated the status of three state-of-the-art MT systems that support the translation of Tigrinya to and from English: Google translate, Microsoft translator, and Lesan. Tigrinya is a language that is spoken by more than 10 million native speakers mainly in Tigray, Ethiopia and Eritrea. The details of the dataset are described below:
+﻿### About:
 
-Schema
+This is the dataset for the project “Error Analysis of Tigrinya-English Machine Translation Systems.” In this project, we evaluated the status of three state-of-the-art MT systems that support the translation of Tigrinya to and from English: Google translate, Microsoft translator, and Lesan. Tigrinya is a language that is spoken by more than 10 million native speakers mainly in Tigray, Ethiopia and Eritrea. The details of the dataset are described below:
+
+### Schema
 
 - Source[a] - This is the source url where the original data is scraped from. Typically takes a URL of a web resource as value but in some cases it could be page number of a textbook.
 
@@ -36,7 +38,7 @@ Schema
 
 - ErrorTypeLesan: One or more Error type(s) according to MQM on translation output from Lesan Translate.
 
-Translation Quality Evaluation Scheme
+### Translation Quality Evaluation Scheme
 
 We performed evaluation both at the sentence and snippet levels. This is to understand if there is a marked difference in handling short and long range dependencies. We’re using a Likert scale of 5 to quantify the quality (severity level) of a translation output. Annotations were first done at sentence level and then the whole snippet at once.
 
@@ -46,35 +48,20 @@ We performed evaluation both at the sentence and snippet levels. This is to unde
 
 - Error Type - is the error type according to DQF-11 MQM[b] of the translation output from a given machine translation system. It could take up one or more of the following values: Mistranslation, Omission, Untranslated, Accuracy, Fluency, Terminology, Style, Punctuation, Spelling, Grammar.
 
-Basic Statistics
+### Basic Statistics
 
 In this dataset we have a total of 805 source snippets (402 in English and Tigrinya each). There are 833 sentences in Tigrinya and 563 sentences in English. On average each snippet contains 2 sentences (2.07 for Tigrinya snippets, 1.85 for English snippets). We give the breakdown of the token and sentence length by language and category in the following table:
 
-Domain
-Number of English snippets
-Number of Tigrinya snippets
-Total snippets
-Arts and Culture
-100
-101
-201
-Science and Technology
-104
-101
-205
-Politics
-100
-100
-200
-Business and Economics
-99
-100
-199
-TOTAL
-403
-402
-805
-Table 1. Distribution of snippets by domain and source language.
+**Number of snippets per domain**
+| Domain | English | Tigrinya | Total Snippets |
+| ---------------------- | -------------------------- | --------------------------- | -------------- |
+| Arts and Culture | 100 | 101 | 201 |
+| Science and Technology | 104 | 101 | 205 |
+| Politics | 100 | 100 | 200 |
+| Business and Economics | 99 | 100 | 199 |
+| **TOTAL** | **403** | **402** | **805** |
+
+Table 1 provides the distribution of snippets categorized by domain and source language. It includes the number of English and Tigrinya snippets for each domain, as well as the total number of snippets in each category.
 
 Distribution of words in the dataset.
 
@@ -82,31 +69,27 @@ Distribution of words in the dataset.
 
 The average number of tokens per snippet over each domain is discussed on Table 2.
 
-Domain
-Average number of tokens per snippet
+**Average number of tokens per snippet**
 
-    Source English
-    Tigrinya
-    Arts and Culture
-    48.95
-    41.73
-    Science and Technology
-    29.6
-    32.52
-    Politics
-    29.7
-    31.93
-    Business and Economics
-    34.8
-    32.62
-    Table 2. Distribution of tokens per snippet by domain and source language.
+| Domain                 | English | Tigrinya |
+| ---------------------- | ------- | -------- |
+| Arts and Culture       | 48.95   | 41.73    |
+| Science and Technology | 29.6    | 32.52    |
+| Politics               | 29.7    | 31.93    |
+| Business and Economics | 34.8    | 32.62    |
 
-Annotation Guideline: annotation was done using the TAUS rating guideline for the error severity in both snippet level and sentence level wise and the DQF-11 MQM standard error typology is used to identify the types of error by two native Tignrigna speakers and fluent English speakers.[c]
+Table 2 displays the distribution of tokens per snippet categorized by domain and source language. The data provides insights into the token distribution across different subject areas.
 
-Annotation
+### Annotation Guideline
+
+annotation was done using the TAUS rating guideline for the error severity in both snippet level and sentence level wise and the DQF-11 MQM standard error typology is used to identify the types of error by two native Tignrigna speakers and fluent English speakers.[c]
+
+### Annotation
+
 “human ratings based on expert-based human evaluation via Multidimensional Quality Metrics (MQM)”
 
 Two experts were involved in the project. Both are native tigrinya speakers and are both fluent in English. Each annotator did 50% of the work.
 
-Format
+### Format
+
 Dataset is now available in three formats tsv, xlsx and JSON.
