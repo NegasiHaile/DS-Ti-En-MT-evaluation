@@ -61,7 +61,7 @@ In this dataset we have a total of 805 source snippets (402 in English and Tigri
 | Business and Economics | 99 | 100 | 199 |
 | **TOTAL** | **403** | **402** | **805** |
 
-Table 1 provides the distribution of snippets categorized by domain and source language. It includes the number of English and Tigrinya snippets for each domain, as well as the total number of snippets in each category.
+_**Table 1:** provides the distribution of snippets categorized by domain and source language. It includes the number of English and Tigrinya snippets for each domain, as well as the total number of snippets in each category._
 
 Distribution of words in the dataset.
 
@@ -78,7 +78,7 @@ The average number of tokens per snippet over each domain is discussed on Table 
 | Politics               | 29.7    | 31.93    |
 | Business and Economics | 34.8    | 32.62    |
 
-Table 2 displays the distribution of tokens per snippet categorized by domain and source language. The data provides insights into the token distribution across different subject areas.
+_**Table 2:** displays the distribution of tokens per snippet categorized by domain and source language. The data provides insights into the token distribution across different subject areas._
 
 ### Annotation Guideline
 
