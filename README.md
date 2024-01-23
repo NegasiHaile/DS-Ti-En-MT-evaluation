@@ -93,3 +93,7 @@ Two experts were involved in the project. Both are native tigrinya speakers and 
 ### Format
 
 Dataset is now available in three formats tsv, xlsx and JSON.
+
+### License
+
+This dataset is licensed under the [MIT](https://opensource.org/licenses/MIT) License.
