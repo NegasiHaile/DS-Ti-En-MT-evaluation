@@ -98,4 +98,4 @@ Dataset is now available in three formats tsv, xlsx and JSON.
 
 ### License
 
-This dataset is licensed under the [MIT](https://opensource.org/licenses/MIT) License.
+This dataset is licensed under the [MIT](LICENSE) License.
