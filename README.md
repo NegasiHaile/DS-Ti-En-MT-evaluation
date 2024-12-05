@@ -1,8 +1,6 @@
-﻿## Dataset for Tigrinya-English Machine Translation Evaluation (DS-Ti-En-MT-evaluation)
+﻿## ERROR ANALYSIS OF TIGRINYA–ENGLISH MACHINE TRANSLATION SYSTEMS
 
-### About
-
-This is the dataset for the project [Error Analysis of Tigrinya-English Machine Translation Systems](https://openreview.net/pdf?id=BQVqNyzCxx). In this project, we evaluated the status of three state-of-the-art MT systems that support the translation of Tigrinya to and from English: Google translate, Microsoft translator, and Lesan. Tigrinya is a language that is spoken by more than 10 million native speakers mainly in Tigray, Ethiopia and Eritrea. The details of the dataset are described below:
+This is the dataset for the research project [Error Analysis of Tigrinya-English Machine Translation Systems](https://openreview.net/pdf?id=BQVqNyzCxx). In this project, we evaluated the status of three state-of-the-art MT systems that support the translation of Tigrinya to and from English: Google translate, Microsoft translator, and Lesan. Tigrinya is a language that is spoken by more than 10 million native speakers mainly in Tigray, Ethiopia and Eritrea. The details of the dataset are described below:
 
 ### Schema
 
@@ -88,7 +86,7 @@ annotation was done using the TAUS rating guideline for the error severity in bo
 
 ### Annotation
 
-“human ratings based on expert-based human evaluation via Multidimensional Quality Metrics (MQM)”
+“Human ratings based on expert-based human evaluation via Multidimensional Quality Metrics (MQM)”
 
 Two experts were involved in the project. Both are native tigrinya speakers and are both fluent in English. Each annotator did 50% of the work.
 
